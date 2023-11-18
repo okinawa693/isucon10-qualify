@@ -33,6 +33,8 @@ services:
       MYSQL_PASS: isucon
       MYSQL_HOST: mysql
       SERVER_PORT: 1323
+      NEW_RELIC_APP_NAME:
+      NEW_RELIC_LICENSE_KEY:
     ports:
       - "1323:1323"
     depends_on:
